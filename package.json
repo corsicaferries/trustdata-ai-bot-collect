@@ -1,0 +1,20 @@
+{
+  "name": "trustdata-ai-bot-collect",
+  "version": "0.5.0",
+  "description": "Deployment shell for the TrustData AI bot collector Worker. The Worker itself ships as @trustdata/ai-bot-collector.",
+  "private": true,
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "packageManager": "npm@10.9.2",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@trustdata/ai-bot-collector": "0.5.0"
+  },
+  "devDependencies": {
+    "wrangler": "4.122.0"
+  }
+}
